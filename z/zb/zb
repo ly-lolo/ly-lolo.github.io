@@ -222,7 +222,7 @@ cgtnsp-高码,http://127.0.0.1:35456/gaoma/cgtnsp.m3u8
 康巴卫视,http://127.0.0.1:35456/itv/1000000005000266002.m3u8?cdn=ystenlive
 安多卫视,http://127.0.0.1:35456/itv/1000000005000266001.m3u8?cdn=ystenlive
 
-香港,#genre#
+港台,#genre#
 
 凤凰卫视中文-CIPTV,http://127.0.0.1:35456/ciptv/HD-10000k-1080P-fhchinese5s.m3u8?pt=cntv
 凤凰卫视资讯-CIPTV,http://127.0.0.1:35456/ciptv/HD-10000k-1080P-fhzixun5s.m3u8?pt=cntv
