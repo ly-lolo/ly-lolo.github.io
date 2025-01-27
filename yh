@@ -12,6 +12,47 @@
       "quickSearch": 0,
       "filterable": 0
     },
+  {
+      "key": "drpy2_六月听书[听]",
+      "name": "六月听书[听](DR2)",
+      "type": 3,
+      "api": "./z/lib/drpy2.js",
+      "searchable": 2,
+      "filterable": 0,
+      "quickSearch": 0,
+      "ext": "https://lylyx.us.kg/js/六月听书[听].js"
+    },
+	{
+      "key": "drpyS_星芽短剧",
+      "name": "星芽短剧(DS)",
+      "type": 4,
+      "api": "https://lylyx.us.kg/api/星芽短剧",
+      "searchable": 2,
+      "filterable": 1,
+      "quickSearch": 1,
+      "ext": ""
+    },
+		 {
+      "key": "drpyS_蓝莓短剧",
+      "name": "蓝莓短剧(DS)",
+      "type": 4,
+      "api": "https://lylyx.us.kg/api/蓝莓短剧",
+      "searchable": 2,
+      "filterable": 0,
+      "quickSearch": 1,
+      "ext": ""
+    },
+    {
+      "key": "drpyS_短剧库",
+      "name": "短剧库(DS)",
+      "type": 4,
+      "api": "https://lylyx.us.kg/api/短剧库",
+      "searchable": 2,
+      "filterable": 0,
+      "quickSearch": 0,
+      "ext": ""
+    },
+	
     {
       "key": "玩偶",
       "name": "👽玩偶哥哥┃4K弹幕",
