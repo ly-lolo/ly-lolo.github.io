@@ -30,8 +30,10 @@ jobs:
       - name: Remove old zb
         run: rm -f zb
 
-      - name: Save new file as zb
-        run: mv new_zb zb
+      - name: Process new file and save as zb
+        run: |
+          awk '/🕘️.*,#genre#/ {print $0"\n天亮了,天气很好"; next} {print}' new_zb > zb
+
 
       - name: Commit and push changes
         run: |
