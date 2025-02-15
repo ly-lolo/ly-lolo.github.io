@@ -1,0 +1,42 @@
+name: Update ZB Data from IPTV-API Repo
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # 每天午夜执行一次
+  workflow_dispatch:       # 手动触发
+
+permissions:
+  contents: write          # 允许Actions写入仓库内容
+
+jobs:
+  update-zb:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Check for updates in remote file
+        run: |
+          curl -o new_zb https://raw.githubusercontent.com/lyliangyuxuan/iptv-api/refs/heads/master/output/user_result.txt
+          if [ -f zb ]; then
+            if cmp -s zb new_zb; then
+              echo "No changes in remote file. Exiting..."
+              exit 0
+            else
+              echo "Changes detected. Updating zb..."
+            fi
+          fi
+
+      - name: Remove old zb
+        run: rm -f zb
+
+      - name: Save new file as zb
+        run: mv new_zb zb
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add zb
+          git commit -m "Update zb from IPTV-API repo" || exit 0
+          git push --force
