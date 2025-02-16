@@ -64,6 +64,26 @@
 				"ratio": 1.5
 			}
 		},
+		{
+      "key": "drpy2_爱车MV[听]",
+      "name": "爱车MV[听](DR2)",
+      "type": 3,
+      "api": "assets://js/lib/drpy2.js",
+      "searchable": 2,
+      "filterable": 0,
+      "quickSearch": 0,
+      "ext": "https://drpys.6516789.xyz/js/爱车MV[听].js"
+    },
+    {
+      "key": "drpy2_百忙无果[官]",
+      "name": "百忙无果[官](DR2)",
+      "type": 3,
+      "api": "assets://js/lib/drpy2.js",
+      "searchable": 2,
+      "filterable": 1,
+      "quickSearch": 0,
+      "ext": "https://drpys.6516789.xyz/js/百忙无果[官].js"
+    },
 		{"key":"Local","name":"本地","type":3,"api":"csp_Local"},
 		{"key":"PushShare","name":"我的资源分享","type":3, "api":"csp_PushShare","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"./z/lib/tokenm.json$$$./z/lib/pushshare.txt$$$db$$$1",
 			"style": {
