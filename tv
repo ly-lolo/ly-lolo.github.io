@@ -694,6 +694,91 @@
 		}],
 		"lives":[
 			{
+            "name": "孙煜昊",
+            "type": 0,
+            "url": "http://loolo.us.kg/zb",
+            "playerType": 1,
+            "logo": "https://live.fanmingming.com/tv/{name}.png"
+        },
+	
+	{
+            "name": "孙煜昊2",
+            "type": 0,
+            "url": "http://3322.ddns.net/zb/nctv",
+            "playerType": 1,
+            "logo": "https://live.fanmingming.com/tv/{name}.png"
+        },
+	{
+            "name": "孙煜昊3",
+            "type": 0,
+            "url": "http://192.168.31.46:12345/Sub?type=m3u",
+            "playerType": 1,
+            "logo": "https://live.fanmingming.com/tv/{name}.png"
+        },
+{
+            "name": "孙煜昊4",
+            "type": 0,
+            "url": "http://3322.ddns.net/zb/zb",
+            "playerType": 1,
+            "logo": "https://live.fanmingming.com/tv/{name}.png"
+        },
+        {
+            "name": "孙煜昊台湾",
+            "type": 0,
+            "url": "http://192.168.31.46:54321/Sub?type=txt&token=lolo",
+            "playerType": 1,
+            "logo": "https://live.fanmingming.com/tv/{name}.png"
+        },
+	{
+            "name": "rad168",
+            "type": 0,
+            "url": "https://raw.githubusercontent.com/rad168/iptv/main/live.m3u",
+            "playerType": 1,
+            "logo": "https://live.fanmingming.com/tv/{name}.png"
+        },
+	 {
+            "name": "央卫",
+            "type": 0,
+            "url": "https://livetv.wqwqwq.sbs/tv.m3u",
+            "playerType": 1,
+            "logo": "https://live.fanmingming.com/tv/{name}.png"
+        },
+        {
+            "name": "litv",
+            "type": 0,
+            "url": "http://www.52sw.top:678/litv.php",
+            "playerType": 1,
+            "logo": "https://live.fanmingming.com/tv/{name}.png"
+        },
+{
+            "name": "孙煜昊台湾",
+            "type": 0,
+            "url": "http://lololo.synology.me/zb/tw",
+            "playerType": 1,
+            "logo": "https://live.fanmingming.com/tv/{name}.png"
+        },
+        {
+            "name": "4GTV",
+            "type": 0,
+            "url": "https://tvv.wqwqwq.sbs/iptv.m3u",
+            "playerType": 1,
+            "logo": "https://live.fanmingming.com/tv/{name}.png"
+        },
+        {
+            "name": "IPV6",
+            "type": 0,
+            "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
+            "playerType": 1,
+            "logo": "https://live.fanmingming.com/tv/{name}.png"
+        },
+        {
+            "name": "平台直播",
+            "type": 0,
+            "url": "https://tv.iill.top/m3u/Live",
+            "ua": "okhttp/3.15",
+            "playerType": 2
+        },
+			{
 				"name": "最强国内直播",
 				"type": 0,
 				"url": "https://ly-lolo.github.io/z/zb/zb",
