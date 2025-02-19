@@ -399,7 +399,7 @@
 	{
             "name": "孙煜昊2",
             "type": 0,
-            "url": "http://3322.ddns.net/zb/nctv",
+            "url": "http://3322.ddns.net:88/zb/nctv",
             "playerType": 1,
             "logo": "https://live.fanmingming.com/tv/{name}.png"
         },
@@ -413,7 +413,7 @@
 {
             "name": "孙煜昊4",
             "type": 0,
-            "url": "http://3322.ddns.net/zb/zb",
+            "url": "http://3322.ddns.net:88/zb/zb",
             "playerType": 1,
             "logo": "https://live.fanmingming.com/tv/{name}.png"
         },
