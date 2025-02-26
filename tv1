@@ -2126,7 +2126,7 @@
         {
             "name": "孙煜昊台湾",
             "type": 0,
-            "url": "http://192.168.31.46:54321/Sub?type=txt&token=lolo",
+            "url": "http://3322.ddns.net:54321/Sub?type=txt&token=lolo",
             "playerType": 1,
             "logo": "https://live.fanmingming.com/tv/{name}.png"
         },
