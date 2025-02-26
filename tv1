@@ -2100,14 +2100,7 @@
             "playerType": 1,
             "logo": "https://live.fanmingming.com/tv/{name}.png"
         },
-	
-	{
-            "name": "孙煜昊2",
-            "type": 0,
-            "url": "http://loolo.us.kg/z/itv.txt",
-            "playerType": 1,
-            "logo": "https://live.fanmingming.com/tv/{name}.png"
-        },
+
 	{
             "name": "880824",
             "type": 0,
@@ -2115,6 +2108,14 @@
             "playerType": 1,
             "logo": "https://live.fanmingming.com/tv/{name}.png"
         },
+	{
+            "name": "孙煜昊2",
+            "type": 0,
+            "url": "http://loolo.us.kg/z/itv.txt",
+            "playerType": 1,
+            "logo": "https://live.fanmingming.com/tv/{name}.png"
+        },
+	
 {
             "name": "孙煜昊4",
             "type": 0,
