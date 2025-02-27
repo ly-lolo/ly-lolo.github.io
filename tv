@@ -2119,7 +2119,7 @@
 {
             "name": "孙煜昊4",
             "type": 0,
-            "url": "http://3322.ddns.net/zb/zb",
+            "url": "http://3322.ddns.net:66/zb/zb",
             "playerType": 1,
             "logo": "https://live.fanmingming.com/tv/{name}.png"
         },
