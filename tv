@@ -2111,6 +2111,13 @@
 	{
             "name": "孙煜昊2",
             "type": 0,
+            "url": "http://tac-server.top:5000/Sub?type=txt",
+            "playerType": 1,
+            "logo": "https://live.fanmingming.com/tv/{name}.png"
+        },
+	{
+            "name": "孙煜昊3",
+            "type": 0,
             "url": "http://loolo.us.kg/z/itv.txt",
             "playerType": 1,
             "logo": "https://live.fanmingming.com/tv/{name}.png"
