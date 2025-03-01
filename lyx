@@ -1,6 +1,10 @@
 ﻿{
   "urls": [
     {
+      "name": "cat📚梁雨轩📚",
+      "url": "https://tvbox.catvod.com/catvod.json"
+    },
+    {
       "name": "拾光📚梁雨轩📚",
       "url": "https://4708.kstore.space/omg/hollo.json"
     },
