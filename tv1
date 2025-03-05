@@ -2102,31 +2102,45 @@
         },
 
 	{
-            "name": "880824",
+            "name": "itv1",
             "type": 0,
-            "url": "http://loolo.us.kg/z/ixyz",
+            "url": "https://mcitv.wqwqwq.sbs/mclu.m3u",
             "playerType": 1,
             "logo": "https://live.fanmingming.com/tv/{name}.png"
         },
 	{
             "name": "孙煜昊2",
             "type": 0,
-            "url": "http://loolo.us.kg/z/itv.txt",
+            "url": "https://mcitv.wqwqwq.sbs/mclu.m3u",
             "playerType": 1,
             "logo": "https://live.fanmingming.com/tv/{name}.png"
         },
 	
 {
-            "name": "孙煜昊4",
+            "name": "美羊1",
             "type": 0,
-            "url": "http://3322.ddns.net/zb/zb",
+            "url": "https://la1.wqwqwq.sbs/tv.m3u ",
             "playerType": 1,
             "logo": "https://live.fanmingming.com/tv/{name}.png"
         },
         {
-            "name": "孙煜昊台湾",
+            "name": "美羊2",
             "type": 0,
-            "url": "http://3322.ddns.net:54321/Sub?type=txt&token=lolo",
+            "url": "https://live.wqwqwq.sbs/tv.m3u",
+            "playerType": 1,
+            "logo": "https://live.fanmingming.com/tv/{name}.png"
+        },
+	{
+            "name": "欧羊1",
+            "type": 0,
+            "url": "https://lu.wqwqwq.sbs/tv.m3u",
+            "playerType": 1,
+            "logo": "https://live.fanmingming.com/tv/{name}.png"
+        },
+        {
+            "name": "欧羊2",
+            "type": 0,
+            "url": "https://fytv.wqwqwq.sbs/tv.m3u",
             "playerType": 1,
             "logo": "https://live.fanmingming.com/tv/{name}.png"
         },
