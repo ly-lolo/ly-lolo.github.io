@@ -17,7 +17,7 @@ jobs:
 
       - name: Check for updates in remote file
         run: |
-          curl -o new_zb https://raw.githubusercontent.com/lyliangyuxuan/iptv-api/refs/heads/master/output/user_result.txt
+          curl -o new_zb https://raw.githubusercontent.com/lyliangyuxuan/iptv-api/refs/heads/master/output/user_result.m3u
           if [ -f zb ]; then
             if cmp -s zb new_zb; then
               echo "No changes in remote file. Exiting..."
