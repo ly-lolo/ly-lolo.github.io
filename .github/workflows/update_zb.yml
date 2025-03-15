@@ -32,7 +32,7 @@ jobs:
 
       - name: Process new file and save as zb
         run: |
-          awk '/🕘️.*,#genre#/ {print $0"\n富坤衡器,http://loolo.us.kg/z/富坤衡器.mp4"; next} {print}' new_zb > zb
+          awk '/🕘️.*,#genre#/ {print $0"\n#EXTINF:-1 tvg-name=\"富坤衡器\" group-title=\"更新时间\",富坤衡器\nhttp://lyly.eu.org/z/富坤衡器.mp4"; next} {print}' new_zb > zb
 
 
       - name: Commit and push changes
